@@ -54,4 +54,8 @@ export class Tab1Page {
     this.router.navigateByUrl(`/tabs/tab1/agregar/${lista.id}`);
   }
 
+  metodoDePrueba() {
+    console.log('solo haciendo una prueba');
+  }
+
 }
